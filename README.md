@@ -4,7 +4,23 @@
 I have built a program that helps Steve compare different stocks' performace for 2017 and 2018 in order to help his parents. Once the original code was built and ran successfully, I worked on refacturing the code so that Steve can analyze a larger dataset if he wants, while making sure the code does not take longer to run than the original AllStocksAnalysis code. For this project, the goal is to see if refactoring the code improves its performance. The performance of the code will be measured by how long the program takes to run from start to finish. Then, the performance will be compared with that of the previous code, *AllStocksAnalysis.*
 
 ## Results
-When running the code for years 2017 and 2018, we can see how the different stocks performed by looking at the return column on the "All Stocks Analysis" worksheet. For the year 2017, all of the stocks' performance improved except for the "TERP" stock. In 2017, the "TERP" stock's returns decreased by 7.2%, while in 2018, the "TERP" stock performance decreased by 5%. In 2018, we can see that the performance for 9 more stocks decreased from the beginning of 2018 to end of 2018, putting these stocks' returns as negative.
+
+### Difference in Stock Performance for 2017 and 2018
+When running the code for years 2017 and 2018, we can see how the different stocks performed by looking at the return column on the "All Stocks Analysis" worksheet. For the year 2017, all of the stocks' performance improved except for the "TERP" stock. In 2017, the "TERP" stock's returns decreased by 7.2%, while in 2018, the "TERP" stock performance decreased by 5%. In 2018, we can see that the performance for 9 more stocks decreased from the beginning of 2018 to end of 2018, putting these stocks' returns as negative. Creating the **For** loops and introducing the array size into each of the arrays we created helped make sure the code ran smoothly through each stock ticker and populated each column successfully.
+
+### Original Script and Refactored Script Execution Times
+After running the code for both the original *AllStocksAnalysis* and the refactored *VBA_Challenge* analysis, we can see the difference in running times below:
+
+#### Original *AllStocksAnalysis* Script Execution Times
+2017
+![AllStocksAnalysis_Original_2017](/AllStocksAnalysis_Original_2017.png)
+
+2018
+![AllStocksAnalysis_Original_2018](/AllStocksAnalysis_Original_2018.png)
+
+
+
+
 
 
 
