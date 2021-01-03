@@ -19,7 +19,7 @@ After running the code for both the original *AllStocksAnalysis* and the refacto
 ![AllStocksAnalysis_Original_2018](/AllStocksAnalysis_Original_2018.png)
 
 #### Refactored *VBA_Challenge* Script Execution Times
-2017
+2017:
 ![VBA_Challenge_2017](/VBA_Challenge_2017.png)
 
 2018:
